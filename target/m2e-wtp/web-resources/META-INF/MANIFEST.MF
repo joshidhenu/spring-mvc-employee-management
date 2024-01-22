@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Class-Path: lib/spring-webmvc-6.1.2.jar lib/spring-aop-6.1.2.jar lib/spr
+ ing-beans-6.1.2.jar lib/spring-context-6.1.2.jar lib/micrometer-observa
+ tion-1.12.1.jar lib/micrometer-commons-1.12.1.jar lib/spring-core-6.1.2
+ .jar lib/spring-jcl-6.1.2.jar lib/spring-expression-6.1.2.jar lib/sprin
+ g-web-6.1.2.jar lib/tomcat-jasper-9.0.82.jar lib/tomcat-servlet-api-9.0
+ .82.jar lib/tomcat-juli-9.0.82.jar lib/tomcat-jsp-api-9.0.82.jar lib/to
+ mcat-el-api-9.0.82.jar lib/ecj-3.26.0.jar lib/tomcat-jasper-el-9.0.82.j
+ ar lib/tomcat-api-9.0.82.jar lib/tomcat-util-scan-9.0.82.jar lib/tomcat
+ -util-9.0.82.jar lib/jstl-1.2.jar lib/mysql-connector-java-8.0.28.jar l
+ ib/protobuf-java-3.11.4.jar lib/spring-jdbc-6.1.2.jar lib/spring-tx-6.1
+ .2.jar
+Created-By: Maven Integration for Eclipse
+
