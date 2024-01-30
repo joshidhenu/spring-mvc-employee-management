@@ -8,8 +8,9 @@ Class-Path: lib/spring-webmvc-6.1.2.jar lib/spring-aop-6.1.2.jar lib/spr
  .82.jar lib/tomcat-juli-9.0.82.jar lib/tomcat-jsp-api-9.0.82.jar lib/to
  mcat-el-api-9.0.82.jar lib/ecj-3.26.0.jar lib/tomcat-jasper-el-9.0.82.j
  ar lib/tomcat-api-9.0.82.jar lib/tomcat-util-scan-9.0.82.jar lib/tomcat
- -util-9.0.82.jar lib/jstl-1.2.jar lib/mysql-connector-java-8.0.28.jar l
- ib/protobuf-java-3.11.4.jar lib/spring-jdbc-6.1.2.jar lib/spring-tx-6.1
- .2.jar
+ -util-9.0.82.jar lib/jakarta.servlet.jsp.jstl-api-3.0.0.jar lib/jakarta
+ .servlet-api-6.0.0.jar lib/jakarta.el-api-5.0.0.jar lib/jakarta.servlet
+ .jsp.jstl-3.0.1.jar lib/mysql-connector-java-8.0.28.jar lib/protobuf-ja
+ va-3.11.4.jar lib/spring-jdbc-6.1.2.jar lib/spring-tx-6.1.2.jar
 Created-By: Maven Integration for Eclipse
 

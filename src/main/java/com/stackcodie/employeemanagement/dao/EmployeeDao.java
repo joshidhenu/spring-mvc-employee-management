@@ -19,7 +19,7 @@ public class EmployeeDao {
 	}
 	
 	public int save(Employee emp) {
-		String sql = "insert into employee(name,salary,designation) vlaues('"+emp.getName()+"',"+emp.getSalary()+",'"+emp.getDesignation()+"')";
+		String sql = "insert into employee(name,salary,designation) values('"+emp.getName()+"',"+emp.getSalary()+",'"+emp.getDesignation()+"')";
 		return template.update(sql);
 	}
 	
@@ -29,6 +29,15 @@ public class EmployeeDao {
 		return template.queryForObject(sql, new Object[] {id},new BeanPropertyRowMapper<Employee>(Employee.class));
 	}
 	
+	public int update(Employee emp) {
+        String sql = "UPDATE employee SET name = ?, salary = ?, designation = ? WHERE id = ?";
+        return template.update(sql, emp.getName(), emp.getSalary(), emp.getDesignation(), emp.getId());
+    }
+	
+	public int delete(int id) {
+		String sql = "delete from employee where id = "+id+"";
+		return template.update(sql);
+	}
 	public List<Employee> getEmployees(){
 		return template.query("select * from employee",new RowMapper<Employee>(){
 			public Employee mapRow(ResultSet rs, int row)throws SQLException{

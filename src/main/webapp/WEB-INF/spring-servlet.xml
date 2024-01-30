@@ -28,7 +28,7 @@
 <property name="dataSource" ref="ds"></property>    
 </bean>    
     
-<bean id="dao" class="com.stackcodie.employeemanagement.dao">    
+<bean id="dao" class="com.stackcodie.employeemanagement.dao.EmployeeDao">    
 <property name="template" ref="jt"></property>    
 </bean>       
 </beans>  
